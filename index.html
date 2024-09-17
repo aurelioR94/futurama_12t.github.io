@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/Series-Peliculas/icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>Futurama</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #ffffff;
-            background-image: url(https://images8.alphacoders.com/132/thumb-1920-1324672.jpeg);
-            color: #ffffff;
+            color: #000000;
             margin:-8px;
             padding: 0;
         }
@@ -27,7 +30,7 @@
             color: #ffffff;
         }
         a {
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             
         }
         a:hover{
@@ -44,65 +47,168 @@
         .movie p {
             margin: 5px 0;
         }
+
+    .card-header  {
+    background-color: transparent !important; 
+    }
+    .card-body {
+        background-color: transparent !important;
+    }
+    .card-link {
+        background-color: transparent !important;
+    }
+.collapse show
+{
+    background-color: transparent !important;
+}
+.collapsed card-link{
+    background-color: transparent !important;
+}
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container"> 
         <h3 style="text-align: center; color: orange;">Serie: Futurama 9 Temporada Español Latino</h3>
         <div class="movie">
             <p><strong style="color: orange;">Número de Episodios:</strong> 10</p>
                 <p><strong style="color: orange;">Server: </strong>Streamwish</p>
                 <a href="https://cuty.io/FuturamaT9" target=”_blank”>LINK DE DESCARGA</a>
         </div>
-        <div class="container" style="text-align: center;"> 
-        </div class="movie">
-        <p style="color: orange;">CAPITULO 1</p>
-        <IFRAME SRC="https://playerwish.com/e/xsf9qnjt7wj9" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
-        <div>
-
-        </div class="movie">
-        <p style="color: orange;">CAPITULO 2</p>
-        <IFRAME SRC="https://playerwish.com/e/qr1vx7twmjdd" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
-        <div>
-
-        </div class="movie">
-        <p style="color: orange;">CAPITULO 3</p>
-        <IFRAME SRC="https://playerwish.com/e/yjb57d8wf68s" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
-        <div>
-
-        </div class="movie">
-        <p style="color: orange;">CAPITULO 4</p>
-        <IFRAME SRC="https://playerwish.com/e/zhco8ix4dn9x" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
-        <div>
-
-        </div class="movie">
-        <p style="color: orange;">CAPITULO 5</p>
-        <IFRAME SRC="https://playerwish.com/e/e008cxozipwd" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
-        <div>
-
-        </div class="movie">
-        <p style="color: orange;">CAPITULO 6</p>
-        <IFRAME SRC="https://playerwish.com/e/1i8rnvh28k3o" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
-        <div>
-
-        </div class="movie">
-        <p style="color: orange;">CAPITULO 7</p>
-        <IFRAME SRC="https://playerwish.com/e/kejz5cvz3lbi" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
-        <div>
-
-        </div class="movie">
-        <p style="color: orange;">CAPITULO 8</p>
-        <div>
-
-        </div class="movie">
-        <p style="color: orange;">CAPITULO 9</p>
-        <div>
-
-        </div class="movie">
-        <p style="color: orange;">CAPITULO 10</p>
-        <div>
-        </div>
-
     </div>
+    
+        <div class="container"
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <a class="card-link" data-toggle="collapse" href="#collapseOne">CAPITULO 1</a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-parent="#accordion" style="background-color: transparent !important;">
+                  <div class="card-body" style="background-color: transparent !important;">
+                    <IFRAME SRC="https://playerwish.com/e/xsf9qnjt7wj9" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                  CAPITULO 2
+                </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <IFRAME SRC="https://playerwish.com/e/qr1vx7twmjdd" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
+                </div>
+                </div>
+            </div>
+                <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                      CAPITULO 3
+                    </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        <IFRAME SRC="https://playerwish.com/e/yjb57d8wf68s" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
+                    </div>
+                    </div>
+                </div>
+
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                        CAPITULO 4
+                      </a>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-parent="#accordion">
+                      <div class="card-body">
+                        <IFRAME SRC="https://playerwish.com/e/zhco8ix4dn9x" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
+                    </div>
+                    </div>
+                </div>
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+                            CAPITULO 5
+                          </a>
+                        </div>
+                        <div id="collapseFive" class="collapse" data-parent="#accordion">
+                          <div class="card-body">
+                            <IFRAME SRC="https://playerwish.com/e/e008cxozipwd" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
+                        </div>
+                        </div>
+                    </div>
+
+                          <div class="card">
+                            <div class="card-header">
+                              <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">
+                                CAPITULO 6
+                              </a>
+                            </div>
+                            <div id="collapseSix" class="collapse" data-parent="#accordion">
+                              <div class="card-body">
+                                <IFRAME SRC="https://playerwish.com/e/1i8rnvh28k3o" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
+                            </div>
+                            </div>
+                        </div>
+
+                              <div class="card">
+                                <div class="card-header">
+                                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseSeven">
+                                    CAPITULO 7
+                                  </a>
+                                </div>
+                                <div id="collapseSeven" class="collapse" data-parent="#accordion">
+                                  <div class="card-body">
+                                    <IFRAME SRC="https://playerwish.com/e/kejz5cvz3lbi" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
+                                </div>
+                                </div>
+                            </div>
+                            
+                                  <div class="card">
+                                    <div class="card-header">
+                                      <a class="collapsed card-link" data-toggle="collapse" href="#collapseEight">
+                                        CAPITULO 8
+                                      </a>
+                                    </div>
+                                    <div id="collapseEight" class="collapse" data-parent="#accordion">
+                                      <div class="card-body">
+                                        Muy Pronto!
+                                      </div>
+                                    </div>
+                                </div>
+
+                                      <div class="card">
+                                        <div class="card-header">
+                                          <a class="collapsed card-link" data-toggle="collapse" href="#collapseNine">
+                                            CAPITULO 9
+                                          </a>
+                                        </div>
+                                        <div id="collapseNine" class="collapse" data-parent="#accordion">
+                                          <div class="card-body">
+                                            Muy Pronto!
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                          <div class="card">
+                                            <div class="card-header">
+                                              <a class="collapsed card-link" data-toggle="collapse" href="#collapseTen">
+                                                CAPITULO 10
+                                              </a>
+                                            </div>
+                                            <div id="collapseTen" class="collapse" data-parent="#accordion">
+                                              <div class="card-body">
+                                                Muy Pronto!
+                                              </div>
+                                            </div>
+                                        </div>
+
+                </div>
+              
+            
+        </div>
+    
 </body>
 </html>
